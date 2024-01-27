@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+.title {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    color: white;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20em;
+    margin: 0 auto;
+}
+
+#coinInput {
+    width: 55%;
+    padding: 10px;
+}
+
+#coinSelect {
+    width: 62%;
+    padding: 10px;
+}
+
+#searchBtn {
+    margin-top: 15px;
+    width: 62%;
+    padding: 10px;
+    background-color: rgb(36, 10, 237);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
